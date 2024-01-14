@@ -1,0 +1,16 @@
+
+h1 {
+    user-select: none;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #C70039;
+    /* transition: 0.3s ease; */
+}
+
+h1:last-child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:#C70039;
+    clip-path: circle(25% at var(--mouse-x) var(--mouse-y));
+}
